@@ -1,4 +1,6 @@
 
+## EVA7 Group-9
+Team Members: Abhinav, Satwik and Yuvaraj
 ## LEARNING IN SESSION 0:
 
 1. Intuition of kernels and channels.
