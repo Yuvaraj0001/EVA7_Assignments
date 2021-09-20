@@ -10,4 +10,4 @@ Team Members: Abhinav, Satwik and Yuvaraj
 5. The intuition for a Receptive field.
 6. Discussion on the working of a Deep Neural Network.
 
-The assignment solutions are present in session_0_solutions.md
+The assignment solutions are present in Session0_Assignment_Solutions.md
