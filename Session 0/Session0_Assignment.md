@@ -4,12 +4,15 @@
 ### Channels:
 According to EVA, channels are defined using below examples.
 1. From the below figure, metallic song or music is produced by combining individual instruments played (drums, guitar, piano, vocals, etc.). In terms of channel, each instrument is a channel such as drum channel, guitar channel, piano channel, vocal channel, etc.
+
 ![alt text](https://github.com/Yuvaraj0001/EVA7_Assignments/blob/main/Session%200/Images/music%20channel.png)
 2. Below text image having 26 channels based on 26 alphabets/characters. Here, each character is considered as a channel. For example, “m-channel” defines all ‘m’ characters with different size and orientation are combined as a channel.
+
 ![alt text](https://github.com/Yuvaraj0001/EVA7_Assignments/blob/main/Session%200/Images/textImage.png)
 
 ### Kernels:
 From the below image, Kernels is a set of 9 values (3x3 matrix – dark violet color) moving on top of channel (4x4 matrix-light violet color) horizontal and vertical directions. Kernels are used to extract edges or features from corresponding channel. Also, kernels are known as feature extractors or filters.
+
 ![alt text](https://github.com/Yuvaraj0001/EVA7_Assignments/blob/main/Session%200/Images/4-2ConvolutionSmall.gif)
 
 ## 2. Why should we (nearly) always use 3x3 kernels?
@@ -19,6 +22,7 @@ From the below image, 5x5 channel is convolved by 3x3 kernels and got 3x3 output
 Similarly, if we use 5x5 kernels over 5x5 channel, it will require 25 parameters to reach 1x1. 
 
 Therefore, if we using 3x3 kernels the total number of parameters are less when compare to 5x5 kernels. Also, 3x3 Kernels learns large complex features easily, whereas large filters learns simple features.
+
 ![alt text](https://github.com/Yuvaraj0001/EVA7_Assignments/blob/main/Session%200/Images/ReceptiveField.gif)
 
 ## 3.	How many times do we need to perform 3x3 convolutions operations to reach close to 1x1 from 199x199 (type each layer output like 199x199 > 197x197...).
@@ -65,5 +69,7 @@ Below conditions are used to prevent the gradients of the activations from vanis
 ## 5.	What happens during the training of a DNN?
 Neural network trying to extract feature such as edges, texture, pattern, parts and objects from input datasets internally. 
 Neural network process images and try to learn the pattern so that we can make a better prediction. Let’s take example of our brain, how it will process the images? It uses an edge detector to detect the edges and forms an image based on that. So when an Images comes to the brain it uses edge detector to find the edges and then those edges are converted to texture, pattern, part of an object and finally they are converted to object.
-![alt text](https://github.com/Yuvaraj0001/EVA7_Assignments/blob/main/Session%200/Images/cortexprocessing.png) ![alt text](https://github.com/Yuvaraj0001/EVA7_Assignments/blob/main/Session%200/Images/edgesand%20patterns.jpg)
+
+![alt text](https://github.com/Yuvaraj0001/EVA7_Assignments/blob/main/Session%200/Images/cortexprocessing.png) 
+![alt text](https://github.com/Yuvaraj0001/EVA7_Assignments/blob/main/Session%200/Images/edgesand%20patterns.jpg)
 
