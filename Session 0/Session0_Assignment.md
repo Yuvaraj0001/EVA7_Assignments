@@ -4,7 +4,7 @@
 ### Channels:
 According to EVA, channels are defined using below examples.
 1. From the below figure, metallic song or music is produced by combining individual instruments played (drums, guitar, piano, vocals, etc.). In terms of channel, each instrument is a channel such as drum channel, guitar channel, piano channel, vocal channel, etc.
-![alt text]()
+![alt text](https://github.com/Yuvaraj0001/EVA7_Assignments/blob/main/Session%200/Images/music%20channel.png)
 2. Below text image having 26 channels based on 26 alphabets/characters. Here, each character is considered as a channel. For example, “m-channel” defines all ‘m’ characters with different size and orientation are combined as a channel.
 
 ### Kernels:
