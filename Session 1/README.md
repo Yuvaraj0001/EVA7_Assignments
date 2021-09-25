@@ -1,2 +1,2 @@
 
-<mark>Marked text</mark>
+<mark>Marked text<mark>
