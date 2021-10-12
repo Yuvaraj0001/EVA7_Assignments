@@ -76,29 +76,7 @@ device = torch.device("cuda" if use_cuda else "cpu")
 model = Net().to(device)
 summary(model, input_size=(1, 28, 28))
 ```
-Results for summarized information of given model (above cell):
-----------------------------------------------------------------
-        Layer (type)               Output Shape         Param #
-================================================================
-            Conv2d-1           [-1, 32, 28, 28]             320
-            Conv2d-2           [-1, 64, 28, 28]          18,496
-         MaxPool2d-3           [-1, 64, 14, 14]               0
-            Conv2d-4          [-1, 128, 14, 14]          73,856
-            Conv2d-5          [-1, 256, 14, 14]         295,168
-         MaxPool2d-6            [-1, 256, 7, 7]               0
-            Conv2d-7            [-1, 512, 5, 5]       1,180,160
-            Conv2d-8           [-1, 1024, 3, 3]       4,719,616
-            Conv2d-9             [-1, 10, 1, 1]          92,170
-================================================================
-Total params: 6,379,786
-Trainable params: 6,379,786
-Non-trainable params: 0
-----------------------------------------------------------------
-Input size (MB): 0.00
-Forward/backward pass size (MB): 1.51
-Params size (MB): 24.34
-Estimated Total Size (MB): 25.85
-----------------------------------------------------------------
+
 `from torchsummary import summary` Torch-summary provides information complementary to what is provided by `print(your_model)` in PyTorch.
 
 `torch.cuda`: This package adds support for CUDA tensor types, that implement the same function as CPU tensors, but they utilize GPUs for computation. Use `is_available()` to determine if your system supports CUDA.
