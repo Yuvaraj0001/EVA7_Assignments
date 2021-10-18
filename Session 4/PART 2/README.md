@@ -13,18 +13,6 @@ Buiding Architecture to achieve,
 
 The model included Batch Normalization, Drop-out, Global Average Pooling. The total number of parameters are 187,146.
 
-* `Batch Normalization`
-
-We apply Batch normalization at every layer to normalize the inputs to the next layer.
-
-* `Drop-out`
- 
-We apply drop out after batchnorm every time to regularize our input and to prevent our model from overfitting.
-
-* `Global Average Pooling`
-
-This layer is introduced when our channel dimension is 1x1. Not only does this translate convolutional structure to linear structure, it has the added advantage of having less parameters to compute and since it doesn't have to learn anything, it helps avoid overfitting. 
-
 ### Logs
 
 Accuracy reached 99.4% at 8th epoch.
