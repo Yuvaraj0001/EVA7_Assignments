@@ -13,6 +13,8 @@ Buiding Architecture to achieve,
 
 The model included Batch Normalization, Drop-out, Global Average Pooling. The total number of parameters are 187,146.
 
+Here, 3 blocks of convloutional layer followed by Relu, batch normalization, max pooling and drop out were used. Then, the results are passed to fully connected layer and Global Average Pooling (GAP).
+
 ### Logs
 
 Accuracy reached 99.4% at 8th epoch.
