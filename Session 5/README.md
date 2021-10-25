@@ -34,7 +34,7 @@
 ## Step 3: Batch normalization, dropout and GAP
 #### Target
 1. Set the architecture to reduce the parameters under 10k
-2. Add Global Average pooling and add one more layer after that to increase the performance
+2. Add Batch normalization, dropout and GAP to increase the performance
 
 #### Result
 1. No of Parameters - 9k
@@ -42,14 +42,13 @@
 3. Highest test Accuracy - 99.16
 
 #### Analysis
-1. The graph shows that the loss is decreasing and no high fluctuations
-2. The Model is not overfitting now. It works fine
-3. But we still can train the model to get higher accuracy
+1. The Model is not overfitting now. It works fine
+2. But we still can train the model to get higher accuracy
 
 ## Step 4: Augumentation and learning scheduler
 #### Target
 1. Set the architecture to reduce the parameters under 10k.
-2. Get Consitent Accuracy 99.4% / reduce fluctuations.
+2. Get Consitent Accuracy 99.4%.
 
 #### Result
 1. No of Parameters - 9.5k
@@ -59,7 +58,6 @@
 #### Analysis
 1. Reduced the dropout to 0.03
 2. The accuracy is consistent
-3. Applied Step lr to reduce fluctuations and Image Augmentation Techniques
 
 ## Final Model:
 
