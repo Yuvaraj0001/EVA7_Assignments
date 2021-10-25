@@ -45,7 +45,7 @@
 1. The Model is not overfitting now. It works fine
 2. But we still can train the model to get higher accuracy
 
-## Step 4: Augumentation and learning scheduler
+## Step 4: Augumentation and LR scheduler
 #### Target
 1. Set the architecture to reduce the parameters under 10k.
 2. Get Consitent Accuracy 99.4%.
