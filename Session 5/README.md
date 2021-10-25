@@ -66,8 +66,6 @@
 
 ## Training logs
 EPOCH: 0
-  0%|          | 0/469 [00:00<?, ?it/s]/usr/local/lib/python3.7/dist-packages/torch/utils/data/dataloader.py:481: UserWarning: This DataLoader will create 4 worker processes in total. Our suggested max number of worker in current system is 2, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
-  cpuset_checked))
 Loss=0.1531488001346588 Batch_id=468 Accuracy=78.34: 100%|██████████| 469/469 [00:52<00:00,  8.89it/s]
 
 Test set: Average loss: 0.0510, Accuracy: 9849/10000 (98.49%)
