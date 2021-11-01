@@ -2,6 +2,10 @@
 
 Objective is to implement normalization (Batch Normalization, Layer Normalization, Group Normalization) techniques on MNIST dataset.
 
+## Group:
+1. Yuvaraj V (yuvaraj100493@gmail.com)
+2. Satwik Mishra (satwiksmishra@gmail.com)
+
 ## Experiments and Model performance
 
 ##### Group Normalization:
