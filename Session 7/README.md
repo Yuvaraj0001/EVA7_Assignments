@@ -52,7 +52,7 @@
 
 3. Set the architecture to reduce the parameters under 200k.
 
-4. Get Consitent Accuracy 85%.
+4. Get Accuracy 85%.
 
 
 
