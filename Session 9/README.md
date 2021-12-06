@@ -8,8 +8,11 @@ Built custom ResNet Model on CIFAR data and achieved the test accuracy of 90.88%
 2. Satwik Mishra (satwiksmishra@gmail.com)
 
 ## Custom ResNet Model
+
 No of Parameters - 99.85k
+
 Highest Train Accuracy -70.49
+
 Highest test Accuracy - 77.75
 
 ----------------------------------------------------------------
