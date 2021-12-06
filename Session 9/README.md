@@ -10,7 +10,9 @@ Built custom ResNet Model on CIFAR data and achieved the test accuracy of 90.88%
 ## Custom ResNet Model
 No of Parameters - 99.85k
 Highest Train Accuracy -70.49
-Highest test Accuracy - 77.75----------------------------------------------------------------
+Highest test Accuracy - 77.75
+
+----------------------------------------------------------------
         Layer (type)               Output Shape         Param #
 ================================================================
             Conv2d-1           [-1, 64, 32, 32]           1,728
@@ -62,6 +64,7 @@ Forward/backward pass size (MB): 8.32
 Params size (MB): 25.07
 Estimated Total Size (MB): 33.40
 ----------------------------------------------------------------
+
 ## LR Search Plot
 
 ![alt text](https://github.com/Yuvaraj0001/EVA7_Assignments/blob/main/Session%209/Images/LR%20plot.png)
