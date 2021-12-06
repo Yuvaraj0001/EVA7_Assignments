@@ -9,67 +9,11 @@ Built custom ResNet Model on CIFAR data and achieved the test accuracy of 90.88%
 
 ## Custom ResNet Model
 
-No of Parameters - 99.85k
+No of Parameters - 6.5M
 
-Highest Train Accuracy -70.49
+Highest Train Accuracy -96.21%
 
-Highest test Accuracy - 77.75
-
-----------------------------------------------------------------
-
-        Layer (type)               Output Shape         Param #
-        
-================================================================
-
-            Conv2d-1           [-1, 64, 32, 32]           1,728
-       BatchNorm2d-2           [-1, 64, 32, 32]             128
-         Dropout2d-3           [-1, 64, 32, 32]               0
-       ConvBNBlock-4           [-1, 64, 32, 32]               0
-            Conv2d-5          [-1, 128, 32, 32]          73,728
-         MaxPool2d-6          [-1, 128, 16, 16]               0
-       BatchNorm2d-7          [-1, 128, 16, 16]             256
-         Dropout2d-8          [-1, 128, 16, 16]               0
-   TransitionBlock-9          [-1, 128, 16, 16]               0
-           Conv2d-10          [-1, 128, 16, 16]         147,456
-      BatchNorm2d-11          [-1, 128, 16, 16]             256
-        Dropout2d-12          [-1, 128, 16, 16]               0
-      ConvBNBlock-13          [-1, 128, 16, 16]               0
-           Conv2d-14          [-1, 128, 16, 16]         147,456
-      BatchNorm2d-15          [-1, 128, 16, 16]             256
-        Dropout2d-16          [-1, 128, 16, 16]               0
-      ConvBNBlock-17          [-1, 128, 16, 16]               0
-         ResBlock-18          [-1, 128, 16, 16]               0
-           Conv2d-19          [-1, 256, 16, 16]         294,912
-        MaxPool2d-20            [-1, 256, 8, 8]               0
-      BatchNorm2d-21            [-1, 256, 8, 8]             512
-        Dropout2d-22            [-1, 256, 8, 8]               0
-  TransitionBlock-23            [-1, 256, 8, 8]               0
-           Conv2d-24            [-1, 512, 8, 8]       1,179,648
-        MaxPool2d-25            [-1, 512, 4, 4]               0
-      BatchNorm2d-26            [-1, 512, 4, 4]           1,024
-        Dropout2d-27            [-1, 512, 4, 4]               0
-  TransitionBlock-28            [-1, 512, 4, 4]               0
-           Conv2d-29            [-1, 512, 4, 4]       2,359,296
-      BatchNorm2d-30            [-1, 512, 4, 4]           1,024
-        Dropout2d-31            [-1, 512, 4, 4]               0
-      ConvBNBlock-32            [-1, 512, 4, 4]               0
-           Conv2d-33            [-1, 512, 4, 4]       2,359,296
-      BatchNorm2d-34            [-1, 512, 4, 4]           1,024
-        Dropout2d-35            [-1, 512, 4, 4]               0
-      ConvBNBlock-36            [-1, 512, 4, 4]               0
-         ResBlock-37            [-1, 512, 4, 4]               0
-        MaxPool2d-38            [-1, 512, 1, 1]               0
-           Linear-39                   [-1, 10]           5,130
-================================================================
-Total params: 6,573,130
-Trainable params: 6,573,130
-Non-trainable params: 0
-----------------------------------------------------------------
-Input size (MB): 0.01
-Forward/backward pass size (MB): 8.32
-Params size (MB): 25.07
-Estimated Total Size (MB): 33.40
-----------------------------------------------------------------
+Highest test Accuracy - 90.88%
 
 ## LR Search Plot
 
