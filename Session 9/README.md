@@ -214,16 +214,27 @@ Test Accuracy: 90.88 has increased. Saving the model
 ## Accuracy Plot
 
 ![alt text](https://github.com/Yuvaraj0001/EVA7_Assignments/blob/main/Session%209/Images/Accuracy.png)
+
 Accuracy of plane : 85 %
+
 Accuracy of   car : 100 %
+
 Accuracy of  bird : 100 %
+
 Accuracy of   cat : 75 %
+
 Accuracy of  deer : 100 %
+
 Accuracy of   dog : 66 %
+
 Accuracy of  frog : 81 %
+
 Accuracy of horse : 83 %
+
 Accuracy of  ship : 91 %
+
 Accuracy of truck : 100 %
+
 ## Misclassified Images
 
 ![alt text](https://github.com/Yuvaraj0001/EVA7_Assignments/blob/main/Session%209/Images/misclassified_images.png)
