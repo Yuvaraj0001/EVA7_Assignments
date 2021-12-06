@@ -77,24 +77,28 @@ Loss=1.2821202278137207 Batch_id=97 Accuracy=40.43: 100%|███████�
 Test set: Average loss: 1.3086, Accuracy: 5399/10000 (53.99%)
 
 Test Accuracy: 53.99 has increased. Saving the model
+
 EPOCH: 2
 Loss=1.3674408197402954 Batch_id=97 Accuracy=57.37: 100%|██████████| 98/98 [00:55<00:00,  1.77it/s]
 
 Test set: Average loss: 1.2467, Accuracy: 6043/10000 (60.43%)
 
 Test Accuracy: 60.43 has increased. Saving the model
+
 EPOCH: 3
 Loss=1.0467630624771118 Batch_id=97 Accuracy=64.95: 100%|██████████| 98/98 [00:55<00:00,  1.77it/s]
 
 Test set: Average loss: 1.0122, Accuracy: 6807/10000 (68.07%)
 
 Test Accuracy: 68.07 has increased. Saving the model
+
 EPOCH: 4
 Loss=0.8910414576530457 Batch_id=97 Accuracy=67.84: 100%|██████████| 98/98 [00:55<00:00,  1.77it/s]
 
 Test set: Average loss: 0.8603, Accuracy: 7287/10000 (72.87%)
 
 Test Accuracy: 72.87 has increased. Saving the model
+
 EPOCH: 5
 Loss=0.9103121757507324 Batch_id=97 Accuracy=74.65: 100%|██████████| 98/98 [00:55<00:00,  1.77it/s]
 
@@ -106,12 +110,14 @@ Loss=0.564529538154602 Batch_id=97 Accuracy=77.42: 100%|████████
 Test set: Average loss: 0.7642, Accuracy: 7706/10000 (77.06%)
 
 Test Accuracy: 77.06 has increased. Saving the model
+
 EPOCH: 7
 Loss=0.5887299180030823 Batch_id=97 Accuracy=81.33: 100%|██████████| 98/98 [00:55<00:00,  1.77it/s]
 
 Test set: Average loss: 0.6437, Accuracy: 8001/10000 (80.01%)
 
 Test Accuracy: 80.01 has increased. Saving the model
+
 EPOCH: 8
 Loss=0.33342957496643066 Batch_id=97 Accuracy=83.60: 100%|██████████| 98/98 [00:55<00:00,  1.76it/s]
 
@@ -123,66 +129,77 @@ Loss=0.4106210470199585 Batch_id=97 Accuracy=85.87: 100%|███████�
 Test set: Average loss: 0.4620, Accuracy: 8514/10000 (85.14%)
 
 Test Accuracy: 85.14 has increased. Saving the model
+
 EPOCH: 10
 Loss=0.3624134957790375 Batch_id=97 Accuracy=87.35: 100%|██████████| 98/98 [00:55<00:00,  1.75it/s]
 
 Test set: Average loss: 0.4397, Accuracy: 8571/10000 (85.71%)
 
 Test Accuracy: 85.71 has increased. Saving the model
+
 EPOCH: 11
 Loss=0.323405385017395 Batch_id=97 Accuracy=88.90: 100%|██████████| 98/98 [00:55<00:00,  1.75it/s]
 
 Test set: Average loss: 0.4165, Accuracy: 8650/10000 (86.50%)
 
 Test Accuracy: 86.5 has increased. Saving the model
+
 EPOCH: 12
 Loss=0.34409767389297485 Batch_id=97 Accuracy=90.30: 100%|██████████| 98/98 [00:55<00:00,  1.75it/s]
 
 Test set: Average loss: 0.4247, Accuracy: 8697/10000 (86.97%)
 
 Test Accuracy: 86.97 has increased. Saving the model
+
 EPOCH: 13
 Loss=0.2811940610408783 Batch_id=97 Accuracy=91.14: 100%|██████████| 98/98 [00:55<00:00,  1.75it/s]
 
 Test set: Average loss: 0.4155, Accuracy: 8788/10000 (87.88%)
 
 Test Accuracy: 87.88 has increased. Saving the model
+
 EPOCH: 14
 Loss=0.22680529952049255 Batch_id=97 Accuracy=92.17: 100%|██████████| 98/98 [00:56<00:00,  1.75it/s]
 
 Test set: Average loss: 0.3654, Accuracy: 8876/10000 (88.76%)
 
 Test Accuracy: 88.76 has increased. Saving the model
+
 EPOCH: 15
 Loss=0.18747879564762115 Batch_id=97 Accuracy=93.15: 100%|██████████| 98/98 [00:56<00:00,  1.75it/s]
 
 Test set: Average loss: 0.3601, Accuracy: 8879/10000 (88.79%)
 
 Test Accuracy: 88.79 has increased. Saving the model
+
 EPOCH: 16
 Loss=0.1353045552968979 Batch_id=97 Accuracy=93.98: 100%|██████████| 98/98 [00:55<00:00,  1.75it/s]
 
 Test set: Average loss: 0.3648, Accuracy: 8909/10000 (89.09%)
 
 Test Accuracy: 89.09 has increased. Saving the model
+
 EPOCH: 17
 Loss=0.15059086680412292 Batch_id=97 Accuracy=94.42: 100%|██████████| 98/98 [00:55<00:00,  1.75it/s]
 
 Test set: Average loss: 0.3353, Accuracy: 8994/10000 (89.94%)
 
 Test Accuracy: 89.94 has increased. Saving the model
+
 EPOCH: 18
 Loss=0.11599750816822052 Batch_id=97 Accuracy=95.06: 100%|██████████| 98/98 [00:55<00:00,  1.75it/s]
 
 Test set: Average loss: 0.3181, Accuracy: 9005/10000 (90.05%)
 
 Test Accuracy: 90.05 has increased. Saving the model
+
 EPOCH: 19
 Loss=0.13956400752067566 Batch_id=97 Accuracy=95.56: 100%|██████████| 98/98 [00:55<00:00,  1.75it/s]
 
 Test set: Average loss: 0.3095, Accuracy: 9054/10000 (90.54%)
 
 Test Accuracy: 90.54 has increased. Saving the model
+
 EPOCH: 20
 Loss=0.15439008176326752 Batch_id=97 Accuracy=95.78: 100%|██████████| 98/98 [00:55<00:00,  1.75it/s]
 
@@ -194,6 +211,7 @@ Loss=0.13163802027702332 Batch_id=97 Accuracy=95.74: 100%|███████�
 Test set: Average loss: 0.3093, Accuracy: 9056/10000 (90.56%)
 
 Test Accuracy: 90.56 has increased. Saving the model
+
 EPOCH: 22
 Loss=0.15073522925376892 Batch_id=97 Accuracy=95.96: 100%|██████████| 98/98 [00:55<00:00,  1.75it/s]
 
@@ -205,12 +223,14 @@ Loss=0.06864310055971146 Batch_id=97 Accuracy=96.21: 100%|███████�
 Test set: Average loss: 0.3107, Accuracy: 9066/10000 (90.66%)
 
 Test Accuracy: 90.66 has increased. Saving the model
+
 EPOCH: 24
 Loss=0.14406953752040863 Batch_id=97 Accuracy=96.19: 100%|██████████| 98/98 [00:55<00:00,  1.75it/s]
 
 Test set: Average loss: 0.3042, Accuracy: 9088/10000 (90.88%)
 
 Test Accuracy: 90.88 has increased. Saving the model
+
 ## Accuracy Plot
 
 ![alt text](https://github.com/Yuvaraj0001/EVA7_Assignments/blob/main/Session%209/Images/Accuracy.png)
