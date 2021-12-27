@@ -1,6 +1,10 @@
 # The Dawn Of Transformers
 
-(Submitted by Yuvaraj V (yuvaraj100493@gmail.com))
+### Group:
+
+Yuvaraj V (yuvaraj100493@gmail.com)
+
+Satwik Mishra (satwiksmishra@gmail.com)
 
 ### Spatial transformer
 
