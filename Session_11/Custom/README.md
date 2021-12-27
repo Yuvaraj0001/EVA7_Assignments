@@ -8,6 +8,7 @@ Dataset has 4 classes Hardhat, Mask, Vest, Boots. This repo is trained on this d
 
 Refer to this repo for annotating the images. File structure for image annotaion is as below.
 yolov3
+
 |── images
 |   ├──img-001.jpg
 |   ├──img-002.jpg
@@ -15,6 +16,7 @@ yolov3
 ├── classes.txt
 ├── main.py
 ├── process.py
+
 run main.py to load the annotation tool and process.py to create test.txt and train.txt.
 
 ### Downloading pretrained weights
