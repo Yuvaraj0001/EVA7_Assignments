@@ -163,9 +163,6 @@ class Mlp(nn.Module):
 
 The self-attention mechanism is an integral component of Transformers, which explicitly models the interaction between all entities of a sequence for structured prediction tasks. 
 
-![alt text](https://github.com/Yuvaraj0001/EVA7_Assignments/blob/main/Session_12/Visual_Transformers/Images/self_attention.gif)
-
-
 class Attention(nn.Module):
     def __init__(self, config, vis):
         super(Attention, self).__init__()
