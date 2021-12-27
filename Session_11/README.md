@@ -1,6 +1,12 @@
 
 # YOLO
 
+### Group:
+
+Yuvaraj V (yuvaraj100493@gmail.com)
+
+Satwik Mishra (satwiksmishra@gmail.com)
+
 ### OpenCV Yolo:
 
 1. Took a image with object which is there in COCO data set.
