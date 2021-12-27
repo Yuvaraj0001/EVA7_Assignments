@@ -2,7 +2,7 @@
 
 The vision transformer treats an input image as a sequence of patches.
 
-![alt text](https://github.com/Yuvaraj0001/EVA7_Assignments/blob/main/Session_11/Open%20CV/images/image1.jpg)
+![alt text](https://github.com/Yuvaraj0001/EVA7_Assignments/blob/main/Session_12/Visual_Transformers/Images/image1.gif)
 
 ##### How the ViT works in a nutshell:
 
@@ -162,6 +162,10 @@ class Mlp(nn.Module):
 ### Attention
 
 The self-attention mechanism is an integral component of Transformers, which explicitly models the interaction between all entities of a sequence for structured prediction tasks. 
+
+![alt text](https://github.com/Yuvaraj0001/EVA7_Assignments/blob/main/Session_12/Visual_Transformers/Images/self_attention.gif)
+
+
 class Attention(nn.Module):
     def __init__(self, config, vis):
         super(Attention, self).__init__()
