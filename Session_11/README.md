@@ -4,7 +4,6 @@
 ### Group:
 
 Yuvaraj V (yuvaraj100493@gmail.com)
-
 Satwik Mishra (satwiksmishra@gmail.com)
 
 ### OpenCV Yolo:
