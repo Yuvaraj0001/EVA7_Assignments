@@ -2,11 +2,11 @@
 
 ### Dataset Preparation
 
-Dataset has 4 classes Hardhat, Mask, Vest, Boots. This repo is trained on this dataset and in addition to these images, 25 images for each class is downloaded and added to the above data.
+Dataset has 4 classes Hardhat, Mask, Vest, Boots. The model is trained on this dataset and in addition to these images, 25 images for each class is downloaded and added to the above data.
 
 ### Data Annotation
 
-Refer to this repo for annotating the images. File structure for image annotaion is as below.
+Refer to the path for annotating the images. File structure for image annotaion is as below.
 yolov3
 
 |── images
