@@ -10,11 +10,17 @@ Refer to this repo for annotating the images. File structure for image annotaion
 yolov3
 
 |── images
+
 |   ├──img-001.jpg
+
 |   ├──img-002.jpg
+
 |   ├──...
+
 ├── classes.txt
+
 ├── main.py
+
 ├── process.py
 
 run main.py to load the annotation tool and process.py to create test.txt and train.txt.
