@@ -16,7 +16,7 @@ To implement a `Spatial transformer` on `CIFAR-10` dataset for `50 epochs` and a
 2. `The grid generator` generates a grid of coordinates in the input image corresponding to each pixel from the output image.
 3. `The sampler` uses the parameters of the transformation and applies it to the input image.
 
-![alt text](https://github.com/Yuvaraj0001/EVA7_Assignments/blob/main/Session_11/Open%20CV/images/image1.jpg)
+![alt text](https://github.com/Yuvaraj0001/EVA7_Assignments/blob/main/Session_12/Spacial_Transformers/Images/stn-arch.png)
 
 Colab Notebook https://colab.research.google.com/drive/1RFP-cf-9Gk8kuBTqmSvP-DT3AfIWtu-K#scrollTo=9lOKxxZMOw_y
 
@@ -297,7 +297,7 @@ Train Epoch: 50 [32000/50000 (64%)]	Loss: 0.663541
 Test set: Average loss: 1.0142, Accuracy: 6589/10000 (66%)
 ### Visualize STN Results
 
-![alt text](https://github.com/Yuvaraj0001/EVA7_Assignments/blob/main/Session_11/Open%20CV/images/image1.jpg)
+![alt text](https://github.com/Yuvaraj0001/EVA7_Assignments/blob/main/Session_12/Spacial_Transformers/Images/STN_result.png)
 
 ### Reference
 
