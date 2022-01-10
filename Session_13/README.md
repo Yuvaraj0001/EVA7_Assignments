@@ -14,7 +14,7 @@ The train folder contains 25000 images of dogs and cats. Each image in this fold
 
 ## Model
 
-Model using vit-pytorch and Linformer https://github.com/gkdivya/EVA/blob/main/13_ViT/CatsAndDogs_ViT/Cats_Dogs_ViT.ipynb 
+Model using vit-pytorch and Linformer https://github.com/Yuvaraj0001/EVA7_Assignments/blob/main/Session_13/ViT_CatsvsDogs.ipynb 
 
 ## Training Log
 
