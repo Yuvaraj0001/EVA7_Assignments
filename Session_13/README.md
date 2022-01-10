@@ -1,5 +1,7 @@
 # Vision Transformers with PyTorch
 
+### (Submitted By Yuvaraj - Yuvaraj100493@gmail.com)
+
 The objective is to train dogs and cats classification dataset using Vision Transformers. 
 
  Implemented the code using Cats & Dogs for Vision Transformers with PyTorch using vit_pytorch package and Linformer
